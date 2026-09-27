@@ -1,0 +1,22 @@
+{
+  "kind": "evm_project",
+  "token": {
+    "contract": "LaunchToken",
+    "name": "Kickoff",
+    "symbol": "KICK",
+    "decimals": 18
+  },
+  "contracts": [
+    {
+      "contract": "CrowdfundCampaigns",
+      "constructorArgs": ["$token"]
+    }
+  ],
+  "pool": {
+    "pairedCurrency": "0x0000000000000000000000000000000000000000",
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "notes": "Sepolia test-KICK crowdfunding with no off-chain promises. CrowdfundCampaigns uses the launch token as its immutable pledge currency and requires no initial token balance, owner or initialization calls. Backers obtain KICK by swapping Sepolia ETH in the factory-seeded, hookless pool. The factory supplies the LP and MerkleDistributor. Launch services apply the pinned policy, including its effective opening price, and provide signed artifact linkage."
+}
