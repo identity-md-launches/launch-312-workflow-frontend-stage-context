@@ -1,0 +1,22 @@
+{
+  "method": "Full self-contained git bundle in disposable test/scratch bare clone with all original history and scoped additions; root .git is read-only and unchanged",
+  "rootRepositoryCommitted": false,
+  "auditedFileCount": 100,
+  "auditedUncompressedFileBytes": 4362616,
+  "fullGitBundleBytesExcludingThisReport": 2890669,
+  "reservedBytesForThisReportAndGitOverhead": 65536,
+  "conservativeCompleteBundleBytes": 2956205,
+  "submissionLimitBytes": 8388608,
+  "withinLimit": true,
+  "exportFilesIncludingManifest": 7,
+  "exportBytesIncludingManifest": 503186,
+  "manifestSha256": "c93c220b3157d19dbef0607d970e07288428850f354e20342d153364131ab007",
+  "allowedPathsOnly": true,
+  "protectedTrackedFilesUnchanged": true,
+  "nodeModulesCachesArchivesAndSubmodulesAbsent": true,
+  "exactOriginalHandoffAndNetworkMatch": true,
+  "ignoreFileBudget": [
+    "web/.gitignore"
+  ],
+  "note": "Scratch clone and bundle are verification scaffolding, excluded from the submission. This small report was written after the measured snapshot and is covered by the reserve."
+}

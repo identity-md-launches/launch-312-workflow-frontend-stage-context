@@ -1,0 +1,12 @@
+# Explicit assignment path budget: this file only (web/.gitignore).
+# A slashless directory pattern applies at every nesting level below web/.
+node_modules/
+.cache/
+.npm/
+.vite/
+coverage/
+test-results/
+playwright-report/
+public/
+*.tsbuildinfo
+*.tgz

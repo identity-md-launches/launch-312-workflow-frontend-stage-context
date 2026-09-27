@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-27T06:26:56.700Z",
+  "readStatus": "● Read from block 11791530 · Refreshes every 20 seconds\nContract escrow: 0 KICK",
+  "resources": [
+    "http://127.0.0.1:4178/preview/assets/index-BkgcI-ZK.js",
+    "http://127.0.0.1:4178/preview/assets/index-Dvqd-3JN.css",
+    "http://127.0.0.1:4178/preview/imd-deployment.json",
+    "http://127.0.0.1:4178/preview/abi/LaunchToken.json",
+    "http://127.0.0.1:4178/preview/abi/CrowdfundCampaigns.json",
+    "https://ethereum-sepolia-rpc.publicnode.com/",
+    "https://ethereum-sepolia-rpc.publicnode.com/",
+    "https://ethereum-sepolia-rpc.publicnode.com/",
+    "https://ethereum-sepolia-rpc.publicnode.com/",
+    "https://ethereum-sepolia-rpc.publicnode.com/"
+  ],
+  "pageErrors": [],
+  "localFailures": [],
+  "rpcFailures": [],
+  "signedOrBroadcast": false
+}

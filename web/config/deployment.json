@@ -1,0 +1,51 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-234-crowdfundcampaigns",
+  "version": 1,
+  "launchId": "37b69e5a-dbf6-4bdd-a513-5f9fbd60a39c",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Sepolia test-KICK crowdfunding with no off-chain promises. CrowdfundCampaigns uses the launch token as its immutable pledge currency and requires no initial token balance, owner or initialization calls. Backers obtain KICK by swapping Sepolia ETH in the factory-seeded, hookless pool. The factory supplies the LP and MerkleDistributor. Launch services apply the pinned policy, including its effective opening price, and provide signed artifact linkage.",
+    "token": {
+      "name": "Kickoff",
+      "symbol": "KICK",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "CrowdfundCampaigns",
+        "constructorArgs": [
+          "$token"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x8e744b63e7fc16adddc39f1ee73b1769ded97b423bbae44b6fd2d6f8185074d0",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0xdc68769578dc288131fe1cf663ac618bb3a0c887",
+      "blockNumber": 11791269,
+      "creationCodeHash": "e7f8f0c2999f1f638f1952fef0efd6793dade67fc093adf1457a60e52edda4cf"
+    },
+    {
+      "name": "CrowdfundCampaigns",
+      "txHash": "0x8e744b63e7fc16adddc39f1ee73b1769ded97b423bbae44b6fd2d6f8185074d0",
+      "abiHash": "b4b9a9acacacbcc0ecf339e3e5abfc449551761916590aba31dff567e6516aa4",
+      "address": "0xb54532c3d8a1dc7cf289fe987f3642b083faafdd",
+      "blockNumber": 11791269,
+      "creationCodeHash": "b88a49a2f7f5c82d9f7a3fccb533c6aa4357843ee908d424b979c0ac8b9450c6"
+    }
+  ],
+  "sourceCommit": "8c62b2dcbd9e299a5733ae3e3cdf8744c905b937",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "1e7a5445e1cbb816fb544a85a22e07ce60ff3c29874cc15939ac2e2b72744e50"
+}

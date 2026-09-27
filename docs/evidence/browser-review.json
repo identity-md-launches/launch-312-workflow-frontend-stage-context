@@ -1,0 +1,79 @@
+{
+  "observations": [
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "body": 1440
+    },
+    {
+      "width": 820,
+      "scroll": 820,
+      "body": 820
+    },
+    {
+      "width": 375,
+      "scroll": 375,
+      "body": 375
+    },
+    {
+      "width": 320,
+      "scroll": 320,
+      "body": 320
+    }
+  ],
+  "textResize200Percent": "passed; CSS root font-size, not browser-native zoom",
+  "reducedMotion": "0s button transitions",
+  "contrast": [
+    {
+      "selector": "body",
+      "foreground": "rgb(36, 53, 42)",
+      "background": "rgb(247, 247, 239)",
+      "ratio": 12.057660672934645
+    },
+    {
+      "selector": ".hero-copy",
+      "foreground": "rgb(93, 98, 86)",
+      "background": "rgb(247, 247, 239)",
+      "ratio": 5.8279736131881785
+    },
+    {
+      "selector": ".hero-note",
+      "foreground": "rgb(36, 53, 42)",
+      "background": "rgb(241, 239, 183)",
+      "ratio": 10.985141662486715
+    },
+    {
+      "selector": ".create-panel .input-hint",
+      "foreground": "rgb(93, 98, 86)",
+      "background": "rgb(230, 235, 219)",
+      "ratio": 5.160274314940276
+    },
+    {
+      "selector": ".create-button",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(36, 53, 42)",
+      "ratio": 12.981487551965259
+    },
+    {
+      "selector": ".campaign-card h3",
+      "foreground": "rgb(36, 53, 42)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 12.981487551965259
+    },
+    {
+      "selector": ".badge",
+      "foreground": "rgb(36, 53, 42)",
+      "background": "rgb(239, 239, 228)",
+      "ratio": 11.211698195096751
+    },
+    {
+      "selector": ".card-meta",
+      "foreground": "rgb(93, 98, 86)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 6.274497928325835
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": [],
+  "fixtureWallet": "0x1000000000000000000000000000000000000001"
+}

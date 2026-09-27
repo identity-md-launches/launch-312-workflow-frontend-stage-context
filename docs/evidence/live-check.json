@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-09-27T06:12:48.192Z",
+  "purpose": "Read-only RPC verification; no transaction or signature requested",
+  "chainId": 11155111,
+  "attempts": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "status": "passed",
+      "chainId": 11155111,
+      "block": "11791460",
+      "blockTimestamp": "1790489568",
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xdc68769578dc288131fe1cf663ac618bb3a0c887",
+          "runtimeBytes": 1722
+        },
+        {
+          "name": "CrowdfundCampaigns",
+          "address": "0xb54532c3d8a1dc7cf289fe987f3642b083faafdd",
+          "runtimeBytes": 3756
+        }
+      ],
+      "token": "0xdc68769578DC288131FE1cF663AC618bb3a0C887",
+      "campaignCount": "0",
+      "totalEscrowed": "0"
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "status": "passed",
+      "chainId": 11155111,
+      "block": "11791460",
+      "blockTimestamp": "1790489568",
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xdc68769578dc288131fe1cf663ac618bb3a0c887",
+          "runtimeBytes": 1722
+        },
+        {
+          "name": "CrowdfundCampaigns",
+          "address": "0xb54532c3d8a1dc7cf289fe987f3642b083faafdd",
+          "runtimeBytes": 3756
+        }
+      ],
+      "token": "0xdc68769578DC288131FE1cF663AC618bb3a0C887",
+      "campaignCount": "0",
+      "totalEscrowed": "0"
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "status": "passed",
+      "chainId": 11155111,
+      "block": "11791460",
+      "blockTimestamp": "1790489568",
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xdc68769578dc288131fe1cf663ac618bb3a0c887",
+          "runtimeBytes": 1722
+        },
+        {
+          "name": "CrowdfundCampaigns",
+          "address": "0xb54532c3d8a1dc7cf289fe987f3642b083faafdd",
+          "runtimeBytes": 3756
+        }
+      ],
+      "token": "0xdc68769578DC288131FE1cF663AC618bb3a0C887",
+      "campaignCount": "0",
+      "totalEscrowed": "0"
+    }
+  ]
+}
